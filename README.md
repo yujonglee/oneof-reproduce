@@ -1,11 +1,12 @@
 ## Try this
 
+```
+npm run start
+// http://127.0.0.1:3000
+```
+
 ```grapgql
 query {
-  hello(str1: "123", str2: "123")
-}
-
-query {
-  hi(input: {str1: "123", str2: "123"})
+  test(input: [])
 }
 ```
